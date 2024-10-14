@@ -32,7 +32,7 @@ sections:
           parallax: false
 
   - block: collection
-    id: papers
+    id: working-papers
     content:
       title: Working Papers
       filters:
@@ -42,6 +42,7 @@ sections:
     design:
       view: citation
   - block: collection
+    id: papers
     content:
       title: Publications
       text: ""
