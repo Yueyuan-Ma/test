@@ -52,6 +52,15 @@ sections:
         exclude_featured: false
     design:
       view: citation
+  - block: collection
+    id: work-in-progress
+    content:
+      title: Work in Progress
+      text: ""
+      filters:
+        folders:
+          - work-in-progress
+        exclude_featured: false
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
