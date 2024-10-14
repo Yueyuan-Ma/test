@@ -38,10 +38,9 @@ sections:
       filters:
         folders:
           - working-paper
-        featured_only: true
+        exclude_featured: false
     design:
-      view: article-grid
-      columns: 2
+      view: citation
   - block: collection
     content:
       title: Publications
